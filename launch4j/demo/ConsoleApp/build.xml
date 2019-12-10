@@ -1,4 +1,4 @@
-<project name="ConsoleApp" default="exe" basedir="">
+<project name="ConsoleApp" default="exe" basedir=".">
 	<property name="src" location="src" />
 	<property name="lib" location="lib" />
 	<property name="build" location="build" />
@@ -6,7 +6,7 @@
 
 	<path id="dist.classpath">
 		<pathelement path="${build}" />
-		<fileset dir="/launch4j/demo/ConsoleApp/lib">
+		<fileset dir="${lib}">
 			<include name="**/*.jar" />
 		</fileset>
 	</path>
@@ -21,14 +21,14 @@
 	</target>
 
 	<target name="jar" depends="compile" description="create the jar">
-		<fileset dir="/launch4j/demo/ConsoleApp/lib" id="lib.dist.fileset">
+		<fileset dir="${lib}" id="lib.dist.fileset">
 			<include name="**/*.jar" />
 		</fileset>
 		<pathconvert pathsep=" " property="dist.classpath" refid="lib.dist.fileset">
 			<map from="${lib}" to=".\lib" />
 		</pathconvert>
 		<!-- Put everything in ${build} into a jar file -->
-		<jar jarfile="ConsoleApp.jar">
+		<jar jarfile="${ant.project.name}.jar">
 			<fileset dir="${build}" includes="**/*" />
 			<manifest>
 				<!-- SET YOUR MAIN CLASS HERE -->
@@ -39,7 +39,7 @@
 	</target>
 
 	<target name="exe" depends="jar">
-		<taskdef name="launch4j" classname="net.sf.launch4j.ant.Launch4jTask" classpath="/launch4j/launch4j.jar
+		<taskdef name="launch4j" classname="net.sf.launch4j.ant.Launch4jTask" classpath="${launch4j.dir}/launch4j.jar
 		    :${launch4j.dir}/lib/xstream.jar" />
 		<launch4j>
 			<config headerType="console" jar="ConsoleApp.jar" outfile="ConsoleApp.exe" errTitle="ConsoleApp" chdir="." icon="l4j/ConsoleApp.ico">
@@ -51,7 +51,7 @@
 
 	<target name="clean" description="clean up">
 		<delete dir="${build}" />
-		<delete file="ConsoleApp.jar" />
+		<delete file="${ant.project.name}.jar" />
 		<delete file="${ant.project.name}.exe" />
 	</target>
 </project>
