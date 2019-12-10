@@ -1,319 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="sinful:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="94c9f7d8-a575-4adb-9411-e9e2359f3b30" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/sinful_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configure.sh" beforeDir="false" afterPath="$PROJECT_DIR$/configure.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j.tar.xz" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j.tar.xz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/.classpath" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/.project" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/.project" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/.settings/org.eclipse.core.resources.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/.settings/org.eclipse.core.runtime.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/.settings/org.eclipse.core.runtime.prefs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/bin/COPYING" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/bin/COPYING" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/build.xml" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/build.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/demo/ConsoleApp/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/demo/ConsoleApp/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/demo/ConsoleApp/ConsoleApp.jar" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/demo/ConsoleApp/ConsoleApp.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/demo/ConsoleApp/build.xml" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/demo/ConsoleApp/build.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/demo/ConsoleApp/l4j/ConsoleApp.ico" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/demo/ConsoleApp/l4j/ConsoleApp.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/demo/ConsoleApp/lib/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/demo/ConsoleApp/lib/readme.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/demo/ConsoleApp/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/demo/ConsoleApp/readme.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/demo/ConsoleApp/src/net/sf/launch4j/example/ConsoleApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/demo/ConsoleApp/src/net/sf/launch4j/example/ConsoleApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/demo/ExitCodeApp/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/demo/ExitCodeApp/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/demo/ExitCodeApp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/demo/ExitCodeApp/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/demo/ExitCodeApp/src/net/sf/launch4j/example/ExitCodeApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/demo/ExitCodeApp/src/net/sf/launch4j/example/ExitCodeApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/demo/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/demo/LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/demo/SimpleApp/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/demo/SimpleApp/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/demo/SimpleApp/SimpleApp.jar" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/demo/SimpleApp/SimpleApp.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/demo/SimpleApp/build.xml" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/demo/SimpleApp/build.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/demo/SimpleApp/l4j/SimpleApp.ico" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/demo/SimpleApp/l4j/SimpleApp.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/demo/SimpleApp/l4j/SimpleApp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/demo/SimpleApp/l4j/SimpleApp.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/demo/SimpleApp/l4j/splash.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/demo/SimpleApp/l4j/splash.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/demo/SimpleApp/lib/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/demo/SimpleApp/lib/readme.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/demo/SimpleApp/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/demo/SimpleApp/readme.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/demo/SimpleApp/src/net/sf/launch4j/example/SimpleApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/demo/SimpleApp/src/net/sf/launch4j/example/SimpleApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/demo/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/demo/readme.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/head/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/head/LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/head/consolehead.o" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/head/consolehead.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/head/guihead.o" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/head/guihead.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/head/head.o" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/head/head.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/head_jni_BETA/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/head_jni_BETA/LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/head_jni_BETA/head.o" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/head_jni_BETA/head.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/head_jni_BETA/jniconsolehead.o" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/head_jni_BETA/jniconsolehead.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/head_jni_BETA/jniguihead.o" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/head_jni_BETA/jniguihead.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/head_jni_BETA/jnihead.o" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/head_jni_BETA/jnihead.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/head_src/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/head_src/LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/head_src/consolehead/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/head_src/consolehead/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/head_src/consolehead/Makefile.win" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/head_src/consolehead/Makefile.win" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/head_src/consolehead/consolehead.c" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/head_src/consolehead/consolehead.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/head_src/consolehead/consolehead.dev" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/head_src/consolehead/consolehead.dev" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/head_src/guihead/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/head_src/guihead/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/head_src/guihead/Makefile.win" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/head_src/guihead/Makefile.win" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/head_src/guihead/guihead.c" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/head_src/guihead/guihead.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/head_src/guihead/guihead.dev" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/head_src/guihead/guihead.dev" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/head_src/guihead/guihead.h" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/head_src/guihead/guihead.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/head_src/head.c" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/head_src/head.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/head_src/head.h" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/head_src/head.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/head_src/jniconsolehead_BETA/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/head_src/jniconsolehead_BETA/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/head_src/jniconsolehead_BETA/Makefile.win" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/head_src/jniconsolehead_BETA/Makefile.win" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/head_src/jniconsolehead_BETA/jniconsolehead.c" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/head_src/jniconsolehead_BETA/jniconsolehead.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/head_src/jniconsolehead_BETA/jniconsolehead.dev" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/head_src/jniconsolehead_BETA/jniconsolehead.dev" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/head_src/jniguihead_BETA/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/head_src/jniguihead_BETA/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/head_src/jniguihead_BETA/Makefile.win" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/head_src/jniguihead_BETA/Makefile.win" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/head_src/jniguihead_BETA/jniguihead.c" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/head_src/jniguihead_BETA/jniguihead.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/head_src/jniguihead_BETA/jniguihead.dev" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/head_src/jniguihead_BETA/jniguihead.dev" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/head_src/jniguihead_BETA/jniguihead.h" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/head_src/jniguihead_BETA/jniguihead.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/head_src/jnihead.c" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/head_src/jnihead.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/head_src/jnihead.h" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/head_src/jnihead.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/head_src/resource.h" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/head_src/resource.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/launch4j.jar" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/launch4j.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/launch4j.jfpr" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/launch4j.jfpr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/lib/JGoodies.Forms.LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/lib/JGoodies.Forms.LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/lib/JGoodies.Looks.LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/lib/JGoodies.Looks.LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/lib/Nuvola.Icon.Theme.LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/lib/Nuvola.Icon.Theme.LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/lib/XStream.LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/lib/XStream.LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/lib/ant.LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/lib/ant.LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/lib/ant.jar" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/lib/ant.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/lib/commons-beanutils.jar" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/lib/commons-beanutils.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/lib/commons-logging.jar" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/lib/commons-logging.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/lib/commons.LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/lib/commons.LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/lib/formsrt.jar" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/lib/formsrt.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/lib/foxtrot.LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/lib/foxtrot.LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/lib/foxtrot.jar" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/lib/foxtrot.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/lib/jgoodies-common.jar" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/lib/jgoodies-common.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/lib/jgoodies-forms.jar" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/lib/jgoodies-forms.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/lib/jgoodies-looks.jar" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/lib/jgoodies-looks.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/lib/xstream.jar" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/lib/xstream.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/manifest/uac.exe.manifest" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/manifest/uac.exe.manifest" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/maven/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/maven/.classpath" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/maven/.project" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/maven/.project" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/maven/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/maven/.settings/org.eclipse.m2e.core.prefs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/maven/assembly/assemble-dist.xml" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/maven/assembly/assemble-dist.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/maven/assembly/assemble-linux.xml" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/maven/assembly/assemble-linux.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/maven/assembly/assemble-linux64.xml" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/maven/assembly/assemble-linux64.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/maven/assembly/assemble-mac.xml" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/maven/assembly/assemble-mac.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/maven/assembly/assemble-solaris.xml" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/maven/assembly/assemble-solaris.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/maven/assembly/assemble-win32.xml" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/maven/assembly/assemble-win32.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/maven/assembly/src.xml" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/maven/assembly/src.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/maven/maven-readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/maven/maven-readme.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/maven/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/maven/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/sign4j/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/sign4j/README.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/sign4j/sign4j.c" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/sign4j/sign4j.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/images/asterix-o.gif" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/images/asterix-o.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/images/asterix.gif" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/images/asterix.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/images/build.png" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/images/build.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/images/button_ok.png" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/images/button_ok.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/images/cancel16.png" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/images/cancel16.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/images/down16.png" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/images/down16.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/images/edit_add16.png" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/images/edit_add16.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/images/info.png" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/images/info.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/images/new.png" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/images/new.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/images/new16.png" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/images/new16.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/images/ok16.png" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/images/ok16.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/images/open.png" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/images/open.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/images/open16.png" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/images/open16.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/images/run.png" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/images/run.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/images/save.png" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/images/save.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/images/up16.png" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/images/up16.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/launch4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/launch4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/Builder.java" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/Builder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/BuilderException.java" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/BuilderException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/ExecException.java" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/ExecException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/FileChooserFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/FileChooserFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/KanjiEscapeOutputStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/KanjiEscapeOutputStream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/Log.java" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/Log.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/Messages.java" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/Messages.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/RcBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/RcBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/Util.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/ant/AntClassPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/ant/AntClassPath.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/ant/AntConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/ant/AntConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/ant/AntJre.java" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/ant/AntJre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/ant/Launch4jTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/ant/Launch4jTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/ant/Messages.java" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/ant/Messages.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/ant/StringWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/ant/StringWrapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/ant/messages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/ant/messages.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/ant/messages_es.properties" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/ant/messages_es.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/binding/Binding.java" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/binding/Binding.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/binding/BindingException.java" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/binding/BindingException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/binding/Bindings.java" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/binding/Bindings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/binding/IValidatable.java" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/binding/IValidatable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/binding/InvariantViolationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/binding/InvariantViolationException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/binding/JComboBoxBinding.java" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/binding/JComboBoxBinding.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/binding/JListBinding.java" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/binding/JListBinding.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/binding/JRadioButtonBinding.java" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/binding/JRadioButtonBinding.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/binding/JTextAreaBinding.java" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/binding/JTextAreaBinding.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/binding/JTextComponentBinding.java" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/binding/JTextComponentBinding.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/binding/JToggleButtonBinding.java" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/binding/JToggleButtonBinding.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/binding/Messages.java" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/binding/Messages.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/binding/OptComponentBinding.java" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/binding/OptComponentBinding.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/binding/OptJTextAreaBinding.java" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/binding/OptJTextAreaBinding.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/binding/Validator.java" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/binding/Validator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/binding/messages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/binding/messages.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/binding/messages_es.properties" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/binding/messages_es.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/config/CharsetID.java" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/config/CharsetID.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/config/ClassPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/config/ClassPath.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/config/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/config/Config.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/config/ConfigPersister.java" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/config/ConfigPersister.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/config/ConfigPersisterException.java" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/config/ConfigPersisterException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/config/Describable.java" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/config/Describable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/config/Jre.java" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/config/Jre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/config/LanguageID.java" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/config/LanguageID.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/config/LdDefaults.java" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/config/LdDefaults.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/config/Messages.java" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/config/Messages.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/config/Msg.java" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/config/Msg.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/config/SingleInstance.java" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/config/SingleInstance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/config/Splash.java" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/config/Splash.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/config/VersionInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/config/VersionInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/config/messages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/config/messages.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/config/messages_es.properties" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/config/messages_es.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/form/BasicForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/form/BasicForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/form/BasicForm.jfrm" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/form/BasicForm.jfrm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/form/ClassPathForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/form/ClassPathForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/form/ClassPathForm.jfrm" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/form/ClassPathForm.jfrm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/form/ConfigForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/form/ConfigForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/form/ConfigForm.jfrm" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/form/ConfigForm.jfrm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/form/EnvironmentVarsForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/form/EnvironmentVarsForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/form/EnvironmentVarsForm.jfrm" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/form/EnvironmentVarsForm.jfrm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/form/HeaderForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/form/HeaderForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/form/HeaderForm.jfrm" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/form/HeaderForm.jfrm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/form/JreForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/form/JreForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/form/JreForm.jfrm" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/form/JreForm.jfrm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/form/Messages.java" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/form/Messages.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/form/MessagesForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/form/MessagesForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/form/MessagesForm.jfrm" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/form/MessagesForm.jfrm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/form/SingleInstanceForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/form/SingleInstanceForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/form/SingleInstanceForm.jfrm" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/form/SingleInstanceForm.jfrm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/form/SplashForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/form/SplashForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/form/SplashForm.jfrm" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/form/SplashForm.jfrm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/form/VersionInfoForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/form/VersionInfoForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/form/VersionInfoForm.jfrm" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/form/VersionInfoForm.jfrm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/form/messages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/form/messages.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/form/messages_es.properties" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/form/messages_es.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/formimpl/AbstractAcceptListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/formimpl/AbstractAcceptListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/formimpl/BasicFormImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/formimpl/BasicFormImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/formimpl/BrowseActionListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/formimpl/BrowseActionListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/formimpl/ClassPathFormImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/formimpl/ClassPathFormImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/formimpl/ConfigFormImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/formimpl/ConfigFormImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/formimpl/EnvironmentVarsFormImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/formimpl/EnvironmentVarsFormImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/formimpl/FileChooser.java" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/formimpl/FileChooser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/formimpl/GlassPane.java" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/formimpl/GlassPane.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/formimpl/HeaderFormImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/formimpl/HeaderFormImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/formimpl/JreFormImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/formimpl/JreFormImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/formimpl/MainFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/formimpl/MainFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/formimpl/Messages.java" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/formimpl/Messages.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/formimpl/MessagesFormImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/formimpl/MessagesFormImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/formimpl/SingleInstanceFormImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/formimpl/SingleInstanceFormImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/formimpl/SplashFormImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/formimpl/SplashFormImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/formimpl/VersionInfoFormImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/formimpl/VersionInfoFormImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/formimpl/messages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/formimpl/messages.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/formimpl/messages_es.properties" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/formimpl/messages_es.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/messages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/messages.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/messages_es.properties" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/src/net/sf/launch4j/messages_es.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/w32api/MinGW.LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/w32api/MinGW.LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/w32api/crt2.o" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/w32api/crt2.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/w32api/libadvapi32.a" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/w32api/libadvapi32.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/w32api/libgcc.a" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/w32api/libgcc.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/w32api/libkernel32.a" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/w32api/libkernel32.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/w32api/libmingw32.a" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/w32api/libmingw32.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/w32api/libmsvcrt.a" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/w32api/libmsvcrt.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/w32api/libshell32.a" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/w32api/libshell32.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/w32api/libuser32.a" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/w32api/libuser32.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/w32api_jni/MinGW.LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/w32api_jni/MinGW.LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/w32api_jni/crt2.o" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/w32api_jni/crt2.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/w32api_jni/libadvapi32.a" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/w32api_jni/libadvapi32.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/w32api_jni/libgcc.a" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/w32api_jni/libgcc.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/w32api_jni/libkernel32.a" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/w32api_jni/libkernel32.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/w32api_jni/libmingw32.a" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/w32api_jni/libmingw32.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/w32api_jni/libmingwex.a" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/w32api_jni/libmingwex.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/w32api_jni/libmoldname.a" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/w32api_jni/libmoldname.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/w32api_jni/libmsvcrt.a" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/w32api_jni/libmsvcrt.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/w32api_jni/libshell32.a" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/w32api_jni/libshell32.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/w32api_jni/libuser32.a" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/w32api_jni/libuser32.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/web/bullet.gif" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/web/bullet.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/web/changelog.html" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/web/changelog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/web/docs.html" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/web/docs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/web/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/web/launch4j-use.gif" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/web/launch4j-use.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/web/launch4j.gif" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/web/launch4j.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/web/links.html" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/web/links.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch4j/web/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/web/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/UNINSTALL.bat" beforeDir="false" afterPath="$PROJECT_DIR$/content/UNINSTALL.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/launch4j/sinful-1.0-jar-with-dependencies.exe" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/sinful-1.0-jar-with-dependencies.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/launch4j/sinful-1.0-jar-with-dependencies.jar" beforeDir="false" afterPath="$PROJECT_DIR$/launch4j/sinful-1.0-jar-with-dependencies.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sINFUL.jar" beforeDir="false" afterPath="$PROJECT_DIR$/sINFUL.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sinful/keylogger/Keylogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sinful/keylogger/Keylogger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sinful/ui/sINFUL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sinful/ui/sINFUL.java" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/configure.sh">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="813" />
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
+  <component name="ProjectId" id="1UmUTcgHzwglaox8X1Ekjc3db1s" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="sinful" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sinful" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sinful" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sinful" type="462c0819:PsiDirectoryNode" />
-              <item name="launch4j" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575942144225" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/main" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
+  <component name="RunManager">
+    <configuration name="sINFUL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sinful.ui.sINFUL" />
+      <module name="sinful" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sinful.ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
       <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
+        <item itemvalue="Application.sINFUL" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
       </list>
     </option>
   </component>
@@ -334,45 +114,41 @@
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="638000" />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="813" extended-state="6" />
-    <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32871014" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/configure.sh">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+  <component name="WindowStateProjectService">
+    <state x="774" y="323" width="810" height="680" key="#Project_Structure" timestamp="1575994929323">
+      <screen x="0" y="31" width="2358" height="1257" />
+    </state>
+    <state x="774" y="323" width="810" height="680" key="#Project_Structure/0.31.2358.1257@0.31.2358.1257" timestamp="1575994929323" />
+    <state x="911" y="450" width="535" height="432" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1575995926697">
+      <screen x="0" y="31" width="2358" height="1257" />
+    </state>
+    <state x="911" y="450" width="535" height="432" key="#com.intellij.ide.util.TreeClassChooserDialog/0.31.2358.1257@0.31.2358.1257" timestamp="1575995926697" />
+    <state width="1792" height="344" key="GridCell.Tab.0.bottom" timestamp="1576003078205">
+      <screen x="0" y="31" width="2358" height="1257" />
+    </state>
+    <state width="1792" height="344" key="GridCell.Tab.0.bottom/0.31.2358.1257@0.31.2358.1257" timestamp="1576003078205" />
+    <state width="1792" height="344" key="GridCell.Tab.0.center" timestamp="1576003078205">
+      <screen x="0" y="31" width="2358" height="1257" />
+    </state>
+    <state width="1792" height="344" key="GridCell.Tab.0.center/0.31.2358.1257@0.31.2358.1257" timestamp="1576003078205" />
+    <state width="1792" height="344" key="GridCell.Tab.0.left" timestamp="1576003078205">
+      <screen x="0" y="31" width="2358" height="1257" />
+    </state>
+    <state width="1792" height="344" key="GridCell.Tab.0.left/0.31.2358.1257@0.31.2358.1257" timestamp="1576003078205" />
+    <state width="1792" height="344" key="GridCell.Tab.0.right" timestamp="1576003078205">
+      <screen x="0" y="31" width="2358" height="1257" />
+    </state>
+    <state width="1792" height="344" key="GridCell.Tab.0.right/0.31.2358.1257@0.31.2358.1257" timestamp="1576003078205" />
+    <state x="662" y="239" width="1034" height="848" key="SettingsEditor" timestamp="1575998588599">
+      <screen x="0" y="31" width="2358" height="1257" />
+    </state>
+    <state x="662" y="239" width="1034" height="848" key="SettingsEditor/0.31.2358.1257@0.31.2358.1257" timestamp="1575998588599" />
+    <state x="839" y="489" key="com.intellij.ide.util.TipDialog" timestamp="1575998834276">
+      <screen x="0" y="31" width="2358" height="1257" />
+    </state>
+    <state x="839" y="489" key="com.intellij.ide.util.TipDialog/0.31.2358.1257@0.31.2358.1257" timestamp="1575998834276" />
   </component>
 </project>

